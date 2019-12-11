@@ -24,14 +24,12 @@ ul {
 body {
   background-color: #dcd9d0;
   background-image: url("img/seamless_paper_texture.png");
+  max-width: 960px;
+  margin: auto;
 }
 
 .tblContact img {
   height: 21px;
-}
-
-.tblEducation, .tblInvolvement {
-  width: 0;
 }
 
 .tblEducationEntry, .tblInvolvementEntry {
