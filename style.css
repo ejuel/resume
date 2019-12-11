@@ -1,0 +1,31 @@
+.h2Title {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+/* ToDo: configure contact info table for mobile device
+Check if screen width
+.tdContact .thContact{
+    display: table-row;
+    white-space: nowrap;
+    width: 100%;
+  }
+*/
+
+table:not(.tblContact){
+  width: 100%;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+ul {
+  /* Details */
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Refreshing and improving my web developer and full stack skills">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript,Web,developer,Full-Stack">
+  <title>Juel, Ezekiel</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!-- NOTE:
+- table td functions "width" and "align" are not supported in html5, both should be configured in CSS
+-->
+
+<body>
+  <header>
+    <h1>Ezekiel Daniel David Juel</h1>
+    <h2><em>Computer Engineer</em></h2>
+
+    <table class="tblContact">
+      <td class="tdContact">
+        <img src="img/gMaps_icon.png" height=21 alt="location: ">
+        <a target="_blank" href="https://www.google.com/maps/place/Wausau,+WI/">
+          <b1>Wausau, Wisconsin</b1>
+        </a>
+      </td>
+      <td class="tdContact">
+        <img src="img/gmail.png" height=21 alt="Email: ">
+        <a HREF="mailto:eddjuel@gmail.com">
+          <b2>eddjuel@gmail.com</b2>
+        </a>
+      </td>
+      <td class="tdContact">
+        <img src="img/phone.png" height=21 alt="Phone: ">
+        <a href="tel:4253459249">
+          <b3>(425) 345-9249</b3>
+        </a>
+      </td>
+      <td class="tdContact" display="block">
+        <img src="img/LI-In-Bug.png" height=21 alt="LinkedIn: ">
+        <a target="_blank" href="http://linkedin.com/in/Ezekiel-Juel">
+          <b4>linkedin.com/in/Ezekiel-Juel</b4>
+        </a>
+      </td>
+      <!-- NOTE: LinkedIn guidelines require minimum bug icon height of 21. All icons have set height to 21 for consistency-->
+    </table>
+  </header>
+
+  <summary>
+    <h1>SUMMARY</h1>
+    <hr class="hrBegin" color=#000000 size=4>
+    <ul>
+      <li>5+ years within the IT industry and 3 additional years of experience as a software developer</li>
+      <li>Strong comprehension, documentation, and interpersonal communication skills. Can take complex technical concepts and explain them in layman’s terms</li>
+      <li>Positive attitude with a desire to contribute to all projects. When work slows down, I’m actively seeking out new tasks</li>
+      <li>I care about colleagues and mentees, actively taking the time to train, build up, and improve team cohesion</li>
+    </ul>
+    <hr class="hrEnd" color=#AAAAAA size=2>
+  </summary>
+
+  <experience id="experience">
+    <h1>EXPERIENCE</h1>
+    <hr class="hrBegin" color=#000000 size=4>
+    <table id="tblExperience">
+      <!--
+      - TODO-JavaScrip/PHP: Add query to mySQL and pull employment information for resume
+      - Columns: fstrEmployer, fstrJobTitle, flngVer, fstrLocation, fdtmBegin, fdtmEnd
+      - PK: fstrEmployer, fstrJobTitle, flngVer
+      -->
+      <tr>
+        <td colspan="2">
+          <h2 class="h2Title">Implementation Consultant</h2>
+        </td>
+      </tr>
+      <tr>
+        <td class="h3Employer">
+          <h3><em>Fast Enterprises, LLC</em></h3>
+        </td>
+        <td class="tdLocation" align="right">
+          <h3>Denver, CO • June 2016 – November 2019</h3>
+        </td>
+      </tr>
+      <tr>
+        <td class="tdJobDescription" colspan="2">
+          <ul>
+            <li>Proactively searched out server performance issues, optimizing queries/code to reduce processing time</li>
+            <li>Worked primarily with the Wisconsin Department of Revenue unclaimed property division. Was responsible for adding and maintaining software that handled file processing and matching over $10 million dollars in unclaimed property per
+              year to
+              their original owners</li>
+            <li>Provided desk-side and production support/training in the use of proprietary computer information systems</li>
+          </ul>
+        </td>
+      </tr>
+      <td colspan="2">
+        <h2 class="h2Title">Desktop Support Technician</h2>
+      </td>
+      <tr>
+        <td>
+          <h3 class="h3Employer"><em>Washington State University</em></h3>
+        </td>
+        <td align="right">
+          <h3 class="h3Location">Pullman, WA • May 2014 – January 2016</h3>
+        </td>
+      </tr>
+      <tr>
+        <td class="tdJobDescription" colspan="2">
+          <ul>
+            <li>Seeing inefficiency in inventory tracked through excel, I created a database application with barcode scanner support which resulted in significant increases to multiple users productivity</li>
+            <li>Typical responsibilities included Windows 7 deployment/imaging, data security/erasure, onsite maintenance, and troubleshooting system/hardware issues</li>
+          </ul>
+        </td>
+      </tr>
+      <td colspan="2">
+        <h2 class="h2Title">Resident Assistant and Resident Technology Advisor</h2>
+      </td>
+      <tr>
+        <td>
+          <h3 class="h3Employer"><em>Washington State University ResLife</em></h3>
+        </td>
+        <td align="right">
+          <h3 class="h3Location">Pullman, WA • August 2012 – May 2016</h3>
+        </td>
+      </tr>
+      <tr>
+        <td class="tdJobDescription" colspan="2">
+          <ul>
+            <li>Created and ran a student event educating attendees of all skill levels about the fundamentals of programming and circuit design. Attendees went away with a working multi-colored LED light they built themselves that was controlled via
+              an
+              Arduino and IR remote</li>
+            <li>Worked independently, supervised others, resolved internal disputes, planned student events, and provided customer service to user IT issues</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <hr class="hrEnd" color=#AAAAAA size=2>
+  </experience>
+
+  <education id="education">
+    <h1>EDUCATION</h1>
+    <hr class="hrBegin" color=#000000 size=4>
+
+    <table id="tblEducation">
+      <tr>
+        <td>
+          <b1>Washington State University
+            • Bachelor of Science in Computer Engineering
+            • ABET Accredited</b1>
+        </td>
+        <td class="tdLocationDate" width="25%" align="right">
+          <b1>Pullman, WA • 2016</b1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b1>Everett Community College
+            • Associate in Arts and Sciences</b1>
+        </td>
+        <td class="tdLocationDate" align="right">
+          <b1>Everett, WA • 2010</b1>
+        </td>
+      </tr>
+    </table>
+    <hr class="hrEnd" color=#AAAAAA size=2>
+  </education>
+
+  <involvement id="involvement">
+    <h1>INVOLVEMENT</h1>
+    <hr class="hrBegin" color=#000000 size=4>
+    <table id="tblInvolvement">
+      <tr>
+        <td>
+          <b1>Vice president of Board of Directors • Concordia Lutheran</b1>
+        </td>
+        <td class="tdLocation" width="25%" align="right">
+          <b1>Madison, WI</b1>
+        </td>
+        <td class="tdDates" align="right">
+          <b1>December 2018 – May 2019</b1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b1>President of Sierra Hotel Booster Club • Student Organization</b1>
+        </td>
+        <td class="tdLocation" align="right">
+          <b1>Pullman, WA</b1>
+        </td>
+        <td class="tdDates" align="right">
+          <b1>May 2014 – May 2015</b1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b1>Financial manager of Sierra Hotel Booster Club • Student Organization</b1>
+        </td>
+        <td class="tdLocation" align="right">
+          <b1>Pullman, WA</b1>
+        </td>
+        <td class="tdDates" align="right">
+          <b1>August 2013 – May 2014</b1>
+        </td>
+      </tr>
+    </table>
+    <hr class="hrEnd" color=#AAAAAA size=2>
+  </involvement>
+
+  <skills>
+    <h1>SKILLS</h1>
+    <hr class="hrBegin" color=#000000 size=4>
+    <ul>
+      <li>Operating System Experience: Microsoft Windows, Mac OS, IOS, Android, Linux (Ubuntu, Fedora, Elementary OS)</li>
+      <li>Notable Software: Microsoft Office, Adobe Photoshop and Illustrator, MS SQL Server, Visual Studio, VS Code, Atom</li>
+      <li>Programming languages: VB.NET, C++, Python, SQL/T-SQL, Verilog, and VHDL, and some web development (HTML, CSS, and JavaScript)</li>
+    </ul>
+    <hr class="hrEnd" color=#AAAAAA size=2>
+  </skills>
+
+</body>
+
+<footer>
+  <b1><em>
+      <a href="index.html">Home</a>
+      • <a href="references.html">References</a>
+    </em></b1>
+</footer>
+
+
+</html>
