@@ -11,6 +11,17 @@ Check if screen width
     width: 100%;
   }
 */
+
+td {
+  vertical-align: top;
+}
+
+ul {
+  /* Details */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .tblContact img {
   height: 21px;
 }
@@ -28,17 +39,7 @@ Check if screen width
   margin: 0;
 }
 
-.section {
-  margin-top: 15px;
-  margin-bottom: 0;
-}
-
-td {
-  vertical-align: top;
-}
-
-ul {
-  /* Details */
+.headerContent{
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
