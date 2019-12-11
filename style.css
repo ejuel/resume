@@ -14,22 +14,25 @@ Check if screen width
 .tblContact img {
   height: 21px;
 }
-table:not(.tblContact) {
+.tblInvolvementEntry {
+  width: 200px;
+}
+table:not(.tblContact):not(.tblInvolvementEntry) {
   width: 100%;
 }
 
-.InvolvementEntry{
-  width: 150px;
-  vertical-align: Top;
+.h3Employer, .h3Location{
+    margin: 0;
 }
 
-h1 {
+.section {
   margin-top: 15px;
   margin-bottom: 0;
 }
 
-.experience h3{
-    margin: 0;
+.InvolvementEntry{
+  width: 100px;
+  vertical-align: Top;
 }
 
 ul {
