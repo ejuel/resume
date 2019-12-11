@@ -17,7 +17,10 @@ Check if screen width
 .tblInvolvementEntry {
   width: 200px;
 }
-table:not(.tblContact):not(.tblInvolvementEntry) {
+.tblInvolvement {
+  width: 0;
+}
+table:not(.tblContact):not(.tblInvolvementEntry):not(.tblInvolvement) {
   width: 100%;
 }
 
