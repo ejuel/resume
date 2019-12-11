@@ -2,6 +2,7 @@
   margin-top: 10px;
   margin-bottom: 0;
 }
+
 /* ToDo: configure contact info table for mobile device
 Check if screen width
 .tdContact .thContact{
@@ -10,22 +11,21 @@ Check if screen width
     width: 100%;
   }
 */
-
 .tblContact img {
   height: 21px;
 }
-.tblInvolvementEntry {
-  width: 200px;
-}
-.tblInvolvement {
+
+.tblEducation, .tblInvolvement {
   width: 0;
 }
-table:not(.tblContact):not(.tblInvolvementEntry):not(.tblInvolvement) {
-  width: 100%;
+
+.tblEducationEntry, .tblInvolvementEntry {
+  margin-right: 25px;
+  vertical-align: top;
 }
 
-.h3Employer, .h3Location{
-    margin: 0;
+.h3Employer, .h3Location {
+  margin: 0;
 }
 
 .section {
@@ -33,9 +33,8 @@ table:not(.tblContact):not(.tblInvolvementEntry):not(.tblInvolvement) {
   margin-bottom: 0;
 }
 
-.InvolvementEntry{
-  width: 100px;
-  vertical-align: Top;
+td {
+  vertical-align: top;
 }
 
 ul {
