@@ -11,8 +11,16 @@ Check if screen width
   }
 */
 
-table:not(.tblContact){
+.tblContact img {
+  height: 21px;
+}
+table:not(.tblContact) {
   width: 100%;
+}
+
+.InvolvementEntry{
+  width: 150px;
+  vertical-align: Top;
 }
 
 h1 {
@@ -20,8 +28,8 @@ h1 {
   margin-bottom: 0;
 }
 
-h3 {
-  margin: 0;
+.experience h3{
+    margin: 0;
 }
 
 ul {
