@@ -39,12 +39,29 @@ ul li{
   margin-top: 10px;
   box-shadow: 10px 10px 4px #A0A0A0;
 }
+/****** Max paper size ******/
+@media screen and (max-height: 1600px) {
+  .resumePaper{
+    min-height: 100vh;
+    /* Use full screen for min height */
+  }
+}
+@media screen and (min-height: 1601px) {
+  .resumePaper{
+    min-height: 1500px;
+    /* If screen is too large then limit paper size */
+  }
+}
+
+
+
 .resumeContent{
 max-width: 90%;
 margin: auto;
 margin-top: 25px;
 margin-bottom: 25px;
 }
+
 .myName{
   font-size: 2.5em;
 }
@@ -54,6 +71,21 @@ margin-bottom: 25px;
 
 .bodyText{
   font-size: 20px;
+}
+.contact, .nav{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.contact li, .nav li {
+  display: inline-block;
+  padding: 5px;
+}
+.nav div {
+margin: auto;
+margin-top: 0;
+margin-bottom: 1px;
 }
 
 .section{
@@ -75,10 +107,6 @@ margin-bottom: 25px;
   margin-top: 0;
   margin-bottom: 5px;
   text-align: center;
-}
-.contact{
-  display: flex;
-  justify-content: center;
 }
 
 .tblContact img {
