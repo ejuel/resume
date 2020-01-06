@@ -56,12 +56,15 @@ margin-bottom: 25px;
   font-size: 20px;
 }
 
+.section{
+  margin: 20px 0 5px 0;
+}
+
 .hrBegin {
   border-style: none;
   background-color: #444444;
   height: 4px;
 }
-
 .hrEnd {
   border-style: none;
   background-color: #AAAAAA;
