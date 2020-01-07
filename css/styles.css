@@ -53,8 +53,6 @@ ul li{
   }
 }
 
-
-
 .resumeContent{
 max-width: 90%;
 margin: auto;
@@ -109,7 +107,8 @@ margin-bottom: 1px;
   text-align: center;
 }
 
-.tblContact img {
+.contact img {
+  /* NOTE: LinkedIn guidelines require minimum bug icon height of 21. All icons set height to 21 for consistency */
   height: 21px;
 }
 
