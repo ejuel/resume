@@ -126,6 +126,10 @@ margin-bottom: 1px;
   vertical-align: top;
 }
 
+.tdEduDegree b1, .tdTitle b1 {
+  font-weight: bold;
+}
+
 .education{
   position: relative;
   display: inline-block;
