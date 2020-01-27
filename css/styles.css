@@ -42,7 +42,7 @@ ul li {
   background-image: url("../img/seamless.png");
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 /* Dropdown Button */
