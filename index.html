@@ -3,12 +3,25 @@
 <!-- test php script -->
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159254365-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159254365-1');
+  </script>
+
   <meta charset="utf-8">
   <meta name="description" content="Refreshing and improving my web developer and full stack skills">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript,Web,developer,Full-Stack">
   <title>Juel, Ezekiel</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="shortcut icon" href="/img/favicon.ico">
 </head>
 <!-- NOTE:
 - table td functions "width" and "align" are not supported in html5, both should be configured in CSS
@@ -18,9 +31,11 @@
 
   <div class="topBar">
     <div class="dropdown">
-      <button class="dropbtn"><img src="img/ham.png" alt="Menu"></button>
+      <button class="dropbtn"><img src="/img/ham.png" alt="Menu"></button>
       <div class="dropdown-content">
-        <a HREF="http://54.221.29.226/"><img src="img/wp.png" alt="Wordpress: "><b1 class="bodyText">Zeke's Blog</b1></a>
+        <a HREF="/wordpress"><img src="/img/wp.png" alt="Wordpress: ">
+          <b1 class="bodyText">Zeke's Blog</b1>
+        </a>
       </div>
     </div>
   </div>
@@ -32,24 +47,24 @@
         <h1 class="headerContent myName">Ezekiel Juel</h1>
         <h2 class="headerContent myTitle"><em>Software Engineer</em></h2>
         <ul class="contact">
-          <li><img src="img/gMaps_icon.png" alt="location: ">
+          <li><img src="/img/gMaps_icon.png" alt="location: ">
             <a target="_blank" rel="noreferrer noopener" href="https://www.google.com/maps/place/Wausau,+WI/">
               <b1 class="bodyText">Wausau, Wisconsin</b1>
             </a></li>
-          <li><img src="img/gmail.png" alt="Email: ">
+          <li><img src="/img/gmail.png" alt="Email: ">
             <a HREF="mailto:eddjuel@gmail.com">
               <b1 class="bodyText">eddjuel@gmail.com</b1>
             </a></li>
-                          <!--<li>
+          <!--<li>
                                 <td class="tdContact">
-                    <img src="img/phone.png" alt="Phone: ">
+                    <img src="/img/phone.png" alt="Phone: ">
                     <a href="tel:1234567890">
                       <b1 class="bodyText">(123) 456-7890</b1>
                     </a>
                         </td>
                       </li>
                     -->
-                    <li><img src="img/LI-In-Bug.png" alt="LinkedIn: ">
+          <li><img src="/img/LI-In-Bug.png" alt="LinkedIn: ">
             <a target="_blank" rel="noreferrer noopener" href="http://linkedin.com/in/Ezekiel-Juel">
               <b1 class="bodyText">/in/Ezekiel-Juel</b1>
             </a></li>
